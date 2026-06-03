@@ -141,6 +141,8 @@ Supporting submission files:
 docs/SCF_FORM_ANSWERS.md
 docs/DEMO_SCRIPT.md
 docs/MILESTONES.md
+docs/SUBMISSION_COPY_PACKET.md
+docs/USER_SUBMISSION_CHECKLIST.zh-CN.md
 ```
 
 ## User-Side Actions Needed Later

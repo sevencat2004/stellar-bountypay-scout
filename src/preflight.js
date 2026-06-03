@@ -7,6 +7,8 @@ const REQUIRED_FILES = [
   "docs/SCF_FORM_ANSWERS.md",
   "docs/DEMO_SCRIPT.md",
   "docs/MILESTONES.md",
+  "docs/SUBMISSION_COPY_PACKET.md",
+  "docs/USER_SUBMISSION_CHECKLIST.zh-CN.md",
   "package.json",
   "src/stellar.js",
   "src/payment-gate.js",
