@@ -53,6 +53,16 @@ Do not put a private key in this project.
 npm test
 ```
 
+## Run SCF Preflight
+
+Before submission, run:
+
+```powershell
+npm run preflight
+```
+
+The preflight checks required project files, package scripts, safety copy, Git branch state, public GitHub repository status, and the local self-test.
+
 ## Create A Payment Intent
 
 ```powershell
@@ -123,6 +133,14 @@ See:
 
 ```text
 SCF_SUBMISSION.md
+```
+
+Supporting submission files:
+
+```text
+docs/SCF_FORM_ANSWERS.md
+docs/DEMO_SCRIPT.md
+docs/MILESTONES.md
 ```
 
 ## User-Side Actions Needed Later

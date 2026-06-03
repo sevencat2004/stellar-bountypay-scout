@@ -9,6 +9,7 @@
     "serve": "node src/server.js",
     "intent": "node src/cli.js intent",
     "analyze": "node src/cli.js analyze",
+    "preflight": "node src/preflight.js",
     "test": "node src/self-test.js"
   },
   "engines": {
