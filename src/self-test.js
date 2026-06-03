@@ -1,0 +1,1 @@
+@src/self-test.js
