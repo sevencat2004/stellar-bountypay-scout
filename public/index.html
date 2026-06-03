@@ -1,1 +1,48 @@
-@public/index.html
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Stellar BountyPay Scout</title>
+    <link rel="stylesheet" href="/styles.css">
+  </head>
+  <body>
+    <main class="shell">
+      <section class="hero">
+        <div>
+          <p class="eyebrow">SCF #44 MVP</p>
+          <h1>Stellar BountyPay Scout</h1>
+          <p class="lede">Payment-gated GitHub bounty intelligence with Stellar testnet intents and Horizon memo verification.</p>
+        </div>
+        <div class="status">
+          <span>Network</span>
+          <strong>Stellar testnet</strong>
+        </div>
+      </section>
+
+      <section class="workspace">
+        <form id="analyze-form" class="panel">
+          <label for="issueUrl">GitHub issue URL</label>
+          <input id="issueUrl" name="issueUrl" value="https://github.com/gyroflow/gyroflow/issues/742">
+
+          <label for="paymentProof">Payment proof or memo</label>
+          <input id="paymentProof" name="paymentProof" value="demo-paid">
+
+          <div class="actions">
+            <button type="button" id="intent-button">Create Stellar intent</button>
+            <button type="submit">Run analysis</button>
+          </div>
+        </form>
+
+        <section class="panel output-panel">
+          <div class="output-header">
+            <span>Result</span>
+            <button id="clear-button" type="button">Clear</button>
+          </div>
+          <pre id="output">Ready.</pre>
+        </section>
+      </section>
+    </main>
+    <script src="/app.js"></script>
+  </body>
+</html>
