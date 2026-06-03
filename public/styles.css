@@ -63,6 +63,32 @@ h1 {
   line-height: 1.5;
 }
 
+.hero-actions {
+  display: flex;
+  align-items: stretch;
+  gap: 12px;
+}
+
+.discord-link {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 140px;
+  padding: 0 16px;
+  border: 1px solid rgba(49, 92, 155, 0.35);
+  border-radius: 8px;
+  background: var(--blue);
+  color: #ffffff;
+  font-weight: 800;
+  text-decoration: none;
+  box-shadow: 0 12px 24px rgba(49, 92, 155, 0.18);
+}
+
+.discord-link:focus-visible,
+.discord-link:hover {
+  background: #274a7d;
+}
+
 .status {
   min-width: 180px;
   padding: 16px;
@@ -175,8 +201,17 @@ pre {
     display: block;
   }
 
-  .status {
+  .hero-actions {
     margin-top: 18px;
+    flex-wrap: wrap;
+  }
+
+  .discord-link {
+    min-height: 54px;
+  }
+
+  .status {
+    flex: 1 1 180px;
   }
 
   .workspace {

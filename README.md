@@ -24,6 +24,7 @@ The current MVP is deliberately safe: it never asks for seed phrases, private ke
 - HTTP API for demos.
 - CLI for local verification.
 - Static dashboard served by the local server.
+- Top-right dashboard link to the Stellar Developers Discord for SCF/community follow-up.
 - SCF submission draft in `SCF_SUBMISSION.md`.
 
 ## Requirements
