@@ -144,6 +144,7 @@ docs/DEMO_SCRIPT.md
 docs/MILESTONES.md
 docs/SUBMISSION_COPY_PACKET.md
 docs/USER_SUBMISSION_CHECKLIST.zh-CN.md
+docs/STELLAR_WALLET_SETUP.zh-CN.md
 ```
 
 ## User-Side Actions Needed Later

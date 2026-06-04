@@ -90,3 +90,5 @@ The MVP does not ask for private keys, seed phrases, or recovery phrases. It onl
 - Public Stellar wallet address
 - SCF profile/team details
 - Any required KYC, tax, or award paperwork
+
+If the submitter does not yet have a Stellar wallet address, use `docs/STELLAR_WALLET_SETUP.zh-CN.md` and provide only a public `G...` address. Never submit a secret key, seed phrase, recovery phrase, or any `S...` key.

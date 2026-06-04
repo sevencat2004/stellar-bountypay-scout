@@ -9,6 +9,7 @@ const REQUIRED_FILES = [
   "docs/MILESTONES.md",
   "docs/SUBMISSION_COPY_PACKET.md",
   "docs/USER_SUBMISSION_CHECKLIST.zh-CN.md",
+  "docs/STELLAR_WALLET_SETUP.zh-CN.md",
   "package.json",
   "src/stellar.js",
   "src/payment-gate.js",

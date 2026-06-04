@@ -84,3 +84,13 @@ npm.cmd run preflight
 ```text
 All SCF preflight checks passed.
 ```
+
+## Stellar 钱包地址
+
+如果你还没有 Stellar 钱包地址，先看：
+
+```text
+docs/STELLAR_WALLET_SETUP.zh-CN.md
+```
+
+SCF 后续只需要公开的 `G...` 钱包地址。不要填写或发送 `S...` secret key、助记词、恢复短语、私钥或钱包备份文件。
